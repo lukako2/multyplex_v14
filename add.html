@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multyplex</title>
+    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="x-icon" href="images/add.png">
+
+</head>
+
+<body>
+
+    <audio id="myAudio2">
+        <source src="audio/correct_1.mp3">
+    </audio>
+
+    <audio id="myAudio">
+        <source src="audio/wrong.mp3">
+    </audio>
+
+    <header>
+        <div class="container">
+            <h1><a href="index.html">MULTIPLIPLEX</a></h1>
+            <ul>
+                <li><a href="multiply.html">Multiply</a></li>
+                <li><a href="divide.html">Divide</a></li>
+                <li><a class="active" href="add.html">Add</a></li>
+                <li><a href="subtract.html">Subtract</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+    <div class="wrapper">
+        <div class="equation">
+            <h1 id="num1" style="color: #fe4a49;">1</h1>
+            <h1 style="color: #2ab7ca;">+</h1>
+            <h1 style="color: #ac891f;" id="num2">1</h1>
+            <h1 style="color: #fe4a49;">=</h1>
+            <h1 style="color: gray;">?</h1>
+
+        </div>
+        <div class="answer-options">
+            <h1 id="option1">1</h1>
+            <h1 id="option2">2</h1>
+            <h1 id="option3">3</h1>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Multyplex</h3>
+            <p>Multyplex is a project for IT Step Academy. It's main page is a mathematical game, where program writes
+                random expressions and the user has to solve them.
+            </p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <script>document.write(new Date().getFullYear())</script> <a href="index.html">Multyplex</a>  </p>
+         </div>
+         <div class="footer-menu">
+            <ul class="f-menu">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about-game.html">About</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+           </div>
+
+    </footer>
+
+    <script src="add.js"></script>
+</body>

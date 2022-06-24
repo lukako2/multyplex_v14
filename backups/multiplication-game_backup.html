@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multyplex</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <style>
+        
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            text-align: center;
+            background-color: yellow;
+            font-family: comic;
+        }
+        
+        nav{
+            height: 80px;
+            width: 100%;
+            background-color: rgb(255, 115, 0);
+            position: absolute;
+            top: 0;
+        }
+
+        label{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        label,a{
+            transition: 0.2s ease-in-out;
+            font-size: 3vw;
+        }
+
+        label,a:hover{
+            font-size: 3.2vw;
+            color: black;
+        }
+
+        label,a:active{
+            font-size: 2.5vw;
+        }
+
+    </style>
+    <nav>
+        <label for="" class="logo"><a href="index.html" data-text="Multyplex">MULTYPLEX</a></label>
+    </nav>
+
+    <div class="loading-text">0%</div>
+
+            <form class="form" id="form">
+                <h4 class="score" id="score">score: 0</h4>
+                <h1 id="question">What is 1 multiplied by 1?</h1>
+                <input
+                type="text"
+                class="input"
+                id="input"
+                placeholder="Enter your answer"
+                autofocus
+                autocomplete="off"
+                />
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>

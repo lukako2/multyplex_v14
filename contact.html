@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multyplex</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="shortcut icon" type="x-icon" href="images/Multyplex.png">
+
+</head>
+<body>
+    <style>
+        @media (max-width: 492px){
+            .container{
+                background-color: red;
+            }
+        }
+    </style>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="" class="logo"><a href="index.html">MULTYPLEX</a></label>
+        <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="about-game.html">About game</a></li>
+        </ul>
+    </nav>
+
+
+<main>
+    <div class="parent">
+        
+        <div class="container">
+            <form action="https://formsubmit.co/d473d277871c7dff117a0f7747ef527e" method="POST">
+                <h2>Contact me</h2>
+                <input type="hidden" name="_subject" value="New email woooooo!">
+                <label>Your name</label>
+                <input type="text" name="name" placeholder="Enter your name.." required>
+                <label>Your Email</label>
+                <input type="email" name="email" placeholder="Enter your Email.." required>
+                <input type="hidden" name="_next" value="https://62ab499ea434122898ab81ff--multyplex.netlify.app/thankyou.html">
+                <label>Your message</label>
+                <textarea type="text" name="message" required placeholder="Enter your message here.."></textarea>
+                <button type="submit">Send</button>
+           </form>
+
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Multyplex</h3>
+            <p>Multyplex is a project for IT Step Academy. It's main page is a mathematical game, where program writes
+                random expressions and the user has to solve them.
+            </p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <script>document.write(new Date().getFullYear())</script> <a href="index.html">Multyplex</a>  </p>
+         </div>
+         <div class="footer-menu">
+            <ul class="f-menu">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about-game.html">About</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+           </div>
+
+    </footer>
+   <script src="scripts.js"></script>    
+</body>
+
+</html>
